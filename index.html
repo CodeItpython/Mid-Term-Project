@@ -7,14 +7,16 @@
   </head>
   <body>
     <header>
-      <h1>Introduce Mr.Bae</h1>
+      <h1>
+        <a href="index.html" style="text-decoration: none"> Introduce Mr.Bae</a>
+      </h1>
     </header>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <main>
@@ -24,16 +26,22 @@
         style="border-radius: 10%;">
       </div>
       <br /><br /><br /><br />
-      <h2>기본신상</h2>
-      <li>소속: 단국대학교 소프트웨어학과 19학번</li>
-      <li>거주지: 경기도 성남시 위례동</li>
-      <li>MBTI: ISTJ</li>
-      <li>취미: 기타 연주, 독서, 여행</li>
-
-      <div>
+      <h2 id="about">기본신상</h2>
+      <li class="list">소속: 단국대학교 소프트웨어학과 19학번</li>
+      <li class="list">거주지: 경기도 성남시 위례동</li>
+      <li class="list">MBTI: ISTJ</li>
+      <li class="list">취미: 기타 연주, 독서, 여행</li>
+      <br />
+      <h2>My Picture</h2>
+      <div class="pic">
         <img src="IMG_7651.JPG" alt="picture" / width="250px" style="margin:
-        10px; border-radius: 10%;"> <img src="IMG_8026.JPG" alt="picture" /
-        width="250px" style="margin: 10px; border-radius: 10%;">
+        10px; border-radius: 10%;">
+      </div>
+      <div class="pic">
+        <img src="IMG_8026.JPG" alt="picture" / width="250px" style="margin:
+        10px; border-radius: 10%;">
+      </div>
+      <div class="pic">
         <img
           src="IMG_8888.jpg"
           alt="picture"
@@ -42,7 +50,8 @@
         />
       </div>
       <br /><br />
-      <div style="text-align: center">
+      <h2 style="text-align: center">My Hobby: Playing Guitar</h2>
+      <div style="text-align: center; margin: 5%">
         <iframe
           width="560"
           height="315"
@@ -53,6 +62,9 @@
           allowfullscreen
         ></iframe>
       </div>
+      <h2 id="contact" style="text-align: center">
+        Contact me by instagram or Github
+      </h2>
       <div>
         <p style="text-align: center">
           <a href="https://www.instagram.com/gunw00__08/"

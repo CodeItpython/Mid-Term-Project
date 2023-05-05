@@ -47,3 +47,13 @@ footer {
   padding: 10px;
   text-align: center;
 }
+.list {
+  font-size: medium;
+  margin: 10px;
+}
+h1 a:visited {
+  color: rgb(20, 19, 19);
+}
+h1 a:hover {
+  color: aqua;
+}
