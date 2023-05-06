@@ -57,3 +57,22 @@ h1 a:visited {
 h1 a:hover {
   color: aqua;
 }
+.mypic1 {
+  text-align: center;
+}
+.mypic1 img {
+  display: inline;
+  width: 350px;
+  margin: 25px;
+  border-radius: 10%;
+}
+.mypic2 {
+  text-align: center;
+}
+.mypic2 img {
+  display: inline;
+  width: 390px;
+  height: 300px;
+  margin: 25px;
+  border-radius: 10%;
+}
