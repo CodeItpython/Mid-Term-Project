@@ -7,8 +7,25 @@
   </head>
   <body>
     <header>
-      <h1>
-        <a href="index.html" style="text-decoration: none"> Introduce Mr.Bae</a>
+      <h1 id="typing-heading" style="height: 55px; color: rgb(5, 5, 6)">
+        <script type="text/javascript">
+          const heading = document.getElementById("typing-heading");
+          const text = "Introduce Mr.Bae";
+          let index = 0;
+
+          function type() {
+            if (index < text.length) {
+              heading.innerHTML += text.charAt(index);
+              index++;
+              setTimeout(type, 100);
+            } else {
+              index = 0;
+              heading.innerHTML = "";
+              setTimeout(type, 1500);
+            }
+          }
+          type();
+        </script>
       </h1>
     </header>
     <nav>
@@ -33,36 +50,36 @@
       </h2>
       <li
         class="list"
-        onmouseover="this.style.transition='transform 1s';
+        onmouseover="this.style.transition='transform 0.3s';
       this.style.transform='scale(1.05)';"
-        onmouseout="this.style.transition='transform 1s';
+        onmouseout="this.style.transition='transform 0.3s';
       this.style.transform='scale(1)';"
       >
         소속: 단국대학교 소프트웨어학과
       </li>
       <li
         class="list"
-        onmouseover="this.style.transition='transform 1s';
+        onmouseover="this.style.transition='transform 0.3s';
       this.style.transform='scale(1.05)';"
-        onmouseout="this.style.transition='transform 1s';
+        onmouseout="this.style.transition='transform 0.3s';
       this.style.transform='scale(1)';"
       >
         거주지: 경기도 성남시 위례동
       </li>
       <li
         class="list"
-        onmouseover="this.style.transition='transform 1s';
+        onmouseover="this.style.transition='transform 0.3s';
       this.style.transform='scale(1.05)';"
-        onmouseout="this.style.transition='transform 1s';
+        onmouseout="this.style.transition='transform 0.3s';
       this.style.transform='scale(1)';"
       >
         MBTI: ISTJ (청렴결백한 논리주의자, 현실주의자)
       </li>
       <li
         class="list"
-        onmouseover="this.style.transition='transform 1s';
+        onmouseover="this.style.transition='transform 0.3s';
       this.style.transform='scale(1.05)';"
-        onmouseout="this.style.transition='transform 1s';
+        onmouseout="this.style.transition='transform 0.3s';
       this.style.transform='scale(1)';"
       >
         취미: 기타연주, 여행, 봉사활동, 배드민턴, 탁구, 노래듣기
@@ -72,54 +89,54 @@
       <h2>학력 <a style="font-size: 5%">(마우스를 올려보세요!)</a></h2>
       <li
         class="list"
-        onmouseover="this.style.transition='transform 1s';
+        onmouseover="this.style.transition='transform 0.3s';
       this.style.transform='scale(1.05)';"
-        onmouseout="this.style.transition='transform 1s';
+        onmouseout="this.style.transition='transform 0.3s';
       this.style.transform='scale(1)';"
       >
         중탑초등학교, 동천초등학교, 미금초등학교 졸업
       </li>
       <li
         class="list"
-        onmouseover="this.style.transition='transform 1s';
+        onmouseover="this.style.transition='transform 0.3s';
       this.style.transform='scale(1.05)';"
-        onmouseout="this.style.transition='transform 1s';
+        onmouseout="this.style.transition='transform 0.3s';
       this.style.transform='scale(1)';"
       >
         분당 불곡중학교 졸업
       </li>
       <li
         class="list"
-        onmouseover="this.style.transition='transform 1s';
+        onmouseover="this.style.transition='transform 0.3s';
       this.style.transform='scale(1.05)';"
-        onmouseout="this.style.transition='transform 1s';
+        onmouseout="this.style.transition='transform 0.3s';
       this.style.transform='scale(1)';"
       >
         분당 불곡고등학교 졸업
       </li>
       <li
         class="list"
-        onmouseover="this.style.transition='transform 1s';
+        onmouseover="this.style.transition='transform 0.3s';
       this.style.transform='scale(1.05)';"
-        onmouseout="this.style.transition='transform 1s';
+        onmouseout="this.style.transition='transform 0.3s';
       this.style.transform='scale(1)';"
       >
         단국대학교 소프트웨어학과 2019년도 입학
       </li>
       <li
         class="list"
-        onmouseover="this.style.transition='transform 1s';
+        onmouseover="this.style.transition='transform 0.5s';
       this.style.transform='scale(1.05)';"
-        onmouseout="this.style.transition='transform 1s';
+        onmouseout="this.style.transition='transform 0.5s';
       this.style.transform='scale(1)';"
       >
         2020년 2월 ~ 2021년 8월 육군 병장 만기전역(22사단)
       </li>
       <li
         class="list"
-        onmouseover="this.style.transition='transform 1s';
+        onmouseover="this.style.transition='transform 0.3s';
       this.style.transform='scale(1.05)';"
-        onmouseout="this.style.transition='transform 1s';
+        onmouseout="this.style.transition='transform 0.3s';
       this.style.transform='scale(1)';"
       >
         2022년도 1학기 복학
@@ -129,45 +146,45 @@
       <h2>자격증 <a style="font-size: 5%">(마우스를 올려보세요!)</a></h2>
       <li
         class="list"
-        onmouseover="this.style.transition='transform 1s';
+        onmouseover="this.style.transition='transform 0.3s';
       this.style.transform='scale(1.05)';"
-        onmouseout="this.style.transition='transform 1s';
+        onmouseout="this.style.transition='transform 0.3s';
       this.style.transform='scale(1)';"
       >
         토익 850점 (2023년 11월 만기)
       </li>
       <li
         class="list"
-        onmouseover="this.style.transition='transform 1s';
+        onmouseover="this.style.transition='transform 0.3s';
       this.style.transform='scale(1.05)';"
-        onmouseout="this.style.transition='transform 1s';
+        onmouseout="this.style.transition='transform 0.3s';
       this.style.transform='scale(1)';"
       >
         한국사 능력 3급
       </li>
       <li
         class="list"
-        onmouseover="this.style.transition='transform 1s';
+        onmouseover="this.style.transition='transform 0.3s';
       this.style.transform='scale(1.05)';"
-        onmouseout="this.style.transition='transform 1s';
+        onmouseout="this.style.transition='transform 0.3s';
       this.style.transform='scale(1)';"
       >
         컴퓨터 활용능력 1급
       </li>
       <li
         class="list"
-        onmouseover="this.style.transition='transform 1s';
+        onmouseover="this.style.transition='transform 0.3s';
       this.style.transform='scale(1.05)';"
-        onmouseout="this.style.transition='transform 1s';
+        onmouseout="this.style.transition='transform 0.3s';
       this.style.transform='scale(1)';"
       >
         정보처리기사 1급(준비중)
       </li>
       <li
         class="list"
-        onmouseover="this.style.transition='transform 1s';
+        onmouseover="this.style.transition='transform 0.3s';
       this.style.transform='scale(1.05)';"
-        onmouseout="this.style.transition='transform 1s';
+        onmouseout="this.style.transition='transform 0.3s';
       this.style.transform='scale(1)';"
       >
         운전면허 2종
