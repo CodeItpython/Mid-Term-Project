@@ -2,12 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <title>배건우의 웹사이트에 오신걸 환영합니다</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1 id="typing-heading" style="height: 55px; color: rgb(5, 5, 6)">
+      <h1 id="typing-heading" style="height: 55px; color: rgb(30, 20, 58)">
         <script>
           const heading = document.getElementById("typing-heading");
           const text = "Introduce Mr.Bae";
@@ -21,7 +22,7 @@
             } else {
               index = 0;
               heading.innerHTML = "";
-              setTimeout(type, 1500);
+              setTimeout(type, 1000);
             }
           }
           type();
@@ -38,15 +39,14 @@
     </nav>
     <main>
       <h2 style="text-align: center">Welcome to My Webpage</h2>
-      <br />
       <h2 style="text-align: center">배 건 우</h2>
       <div style="text-align: center">
         <img src="profile.jpg" alt="picture" width="300px" /
         style="border-radius: 10%;">
       </div>
-      <br /><br /><br /><br />
+      <br /><br />
       <h2 id="about">
-        기본신상 <a style="font-size: 5%">(마우스를 올려보세요!)</a>
+        기본신상 <a style="font-size: 15px">(마우스를 올려보세요!)</a>
       </h2>
       <script>
         function larger(img) {
@@ -68,14 +68,17 @@
         거주지: 경기도 성남시 위례동
       </li>
       <li class="list" onmouseover="larger(this)" onmouseout="smaller(this)">
+        이메일: rick9808@naver.com
+      </li>
+      <li class="list" onmouseover="larger(this)" onmouseout="smaller(this)">
         MBTI: ISTJ (청렴결백한 논리주의자, 현실주의자)
       </li>
       <li class="list" onmouseover="larger(this)" onmouseout="smaller(this)">
         취미: 기타연주, 여행, 봉사활동, 배드민턴, 탁구, 노래듣기
       </li>
-      <br /><br />
+      <br />
 
-      <h2>학력 <a style="font-size: 5%">(마우스를 올려보세요!)</a></h2>
+      <h2>학력 <a style="font-size: 15px">(마우스를 올려보세요!)</a></h2>
       <li class="list" onmouseover="larger(this)" onmouseout="smaller(this)">
         중탑초등학교, 동천초등학교, 미금초등학교 졸업
       </li>
@@ -94,9 +97,9 @@
       <li class="list" onmouseover="larger(this)" onmouseout="smaller(this)">
         2022년도 1학기 복학
       </li>
-      <br /><br />
+      <br />
 
-      <h2>자격증 <a style="font-size: 5%">(마우스를 올려보세요!)</a></h2>
+      <h2>자격증 <a style="font-size: 15px">(마우스를 올려보세요!)</a></h2>
       <li class="list" onmouseover="larger(this)" onmouseout="smaller(this)">
         토익 850점 (2023년 11월 만기)
       </li>
@@ -112,10 +115,10 @@
       <li class="list" onmouseover="larger(this)" onmouseout="smaller(this)">
         운전면허 2종
       </li>
-      <br /><br />
+      <br />
 
       <h2 style="text-align: center">My Picture</h2>
-      <h5 style="text-align: center">마우스를 올려보세요!</h5>
+      <h5 style="text-align: center; font-size: 20px">마우스를 올려보세요!</h5>
       <script>
         function larger_pic(img) {
           img.style.transition = "transform 1s";
@@ -126,7 +129,7 @@
           img.style.transform = "scale(1)";
         }
       </script>
-      <div class="mypic1">
+      <div class="mypic1" id="pict">
         <img src="IMG_7651.JPG" alt="picture" / onmouseover="larger_pic(this)"
         onmouseout="smaller_pic(this)"> <img src="IMG_8026.JPG" alt="picture" /
         onmouseover="larger_pic(this)" onmouseout="smaller_pic(this)"> <img
@@ -136,7 +139,9 @@
       <br /><br />
       <div class="mypic2">
         <h2>Traveling picture</h2>
-        <h5 style="text-align: center">마우스를 올려보세요!</h5>
+        <h5 style="text-align: center; font-size: 20px">
+          마우스를 올려보세요!
+        </h5>
         <img src="IMG_3680.jpg" alt="picture" / onmouseover="larger_pic(this)"
         onmouseout="smaller_pic(this)"> <img src="IMG_3682.jpg" alt="picture" /
         onmouseover="larger_pic(this)" onmouseout="smaller_pic(this)"> <img
@@ -200,13 +205,13 @@
         <p style="text-align: center">
           <a href="https://www.instagram.com/gunw00__08/"
             ><img
-              src="insta.png"
+              src="instagram.png"
               alt="insta"
-              width="130px"
-              style="margin-right: 50px"
-            /> </a
+              id="icon"
+              width="100px"
+              style="margin-right: 50px" /></a
           ><a href="https://github.com/CodeItpython/Mid-Term-Project"
-            ><img src="git_picture.png" alt="git" width="130px"
+            ><img src="git_picture.png" alt="git" width="100px"
           /></a>
         </p>
       </div>
